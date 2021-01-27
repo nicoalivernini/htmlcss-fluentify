@@ -30,6 +30,7 @@ body {
   float: left;
   margin: 0 auto;
   text-align: center;
+  padding: 15px;
 }
 
 .row:after {
@@ -40,6 +41,10 @@ body {
 
 .pad-40 {
   padding: 40px;
+}
+
+.mrg-top-50 {
+  margin-top: 50px;
 }
 
 
@@ -161,8 +166,24 @@ header > nav {
 
 .row p {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   color: rgb(121, 121, 121);
+}
+
+.contained img {
+  width: 40%;
+  margin-bottom: 15px;
+}
+
+.contained h3 {
+  font-size: 30px;
+  color: rgb(138, 184, 56);
+  font-weight: 400;
+}
+
+.contained hr {
+  width: 20%;
+  margin: 30px auto;
 }
 
 /* END - FIRST SECTION */
