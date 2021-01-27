@@ -10,6 +10,10 @@ body {
   font-family: 'Yantramanav', sans-serif;
 }
 
+header {
+  background-color: rgb(23, 50, 87);
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -73,5 +77,46 @@ header > nav {
   padding: 10px 35px;
 }
 
+#jumbo {
+  margin-top: 50px;
+  position: relative;
+}
+
+#jumbo:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.img-jumbo {
+  width: 70%;
+  float: right;
+}
+
+.text-jumbo {
+  color: #fff;
+  width: 40%;
+  position: absolute;
+  top: 70px;
+  left: 10%
+}
+
+.text-jumbo > h1 {
+  font-size: 55px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 60px;
+}
+
+.piano {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 20px 25px;
+  position: absolute;
+  top: 150px;
+  left: 0px;
+}
 
 /* END - NAVBAR */
