@@ -10,15 +10,37 @@ body {
   font-family: 'Yantramanav', sans-serif;
 }
 
-header {
-  background-color: rgb(23, 50, 87);
-}
-
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
+.col-100 {
+  width: 100%;
+  float: left;
+}
+
+.col-50 {
+  width: calc(100% / 2);
+  float: left;
+}
+
+.col-33 {
+  width: calc(100% / 3);
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.pad-40 {
+  padding: 40px;
+}
 
 
 
@@ -77,6 +99,8 @@ header > nav {
   padding: 10px 35px;
 }
 
+  /* Immagine e testo Jumbo */
+
 #jumbo {
   margin-top: 50px;
   position: relative;
@@ -120,3 +144,25 @@ header > nav {
 }
 
 /* END - NAVBAR */
+
+/* START - FIRST SECTION */
+
+.gray {
+  background-color: rgb(211, 211, 211);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.row p {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(121, 121, 121);
+}
+
+/* END - FIRST SECTION */
