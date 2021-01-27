@@ -43,12 +43,33 @@ body {
   padding: 40px;
 }
 
+.padd-lat {
+  padding: 0 70px;
+}
+
+.mrg-40{
+  margin: 40px;
+}
+
 .mrg-top-50 {
   margin-top: 50px;
 }
 
+.mg-top-bot-20 {
+  margin: 20px 0;
+}
 
+.w-40 {
+  width: 40%;
+}
 
+.w-50 {
+  width: 50%;
+}
+
+.w-70 {
+  width: 70%;
+}
 
 /* END - UTILITY */
 
@@ -158,32 +179,58 @@ header > nav {
   text-align: center;
 }
 
-.row h2 {
+.row .col-100 h2 {
   font-size: 30px;
   font-weight: 400;
   color: #000000;
 }
 
-.row p {
+.row .col-100 p, .row .col-33 p {
   font-size: 20px;
   font-weight: 400;
   color: rgb(121, 121, 121);
 }
 
-.contained img {
-  width: 40%;
-  margin-bottom: 15px;
-}
-
-.contained h3 {
-  font-size: 30px;
-  color: rgb(138, 184, 56);
-  font-weight: 400;
-}
+/* END - FIRST SECTION */
 
 .contained hr {
   width: 20%;
   margin: 30px auto;
 }
 
-/* END - FIRST SECTION */
+/* START - SECOND SECTION */
+
+.contained img {
+  margin-bottom: 15px;
+}
+
+.col-33 .contained h3 {
+  font-size: 30px;
+  color: rgb(138, 184, 56);
+  font-weight: 400;
+}
+
+/* END - SECOND SECTION */
+
+/* START - THIRD SECTION */
+
+.col-50 .contained h3 {
+  font-size: 35px;
+  line-height: 40px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+.col-50 .contained p {
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 400;
+  color: rgb(121, 121, 121);
+}
+
+.col-50 .contained a {
+  color: rgb(108, 143, 189);
+  font-size: 16px;
+}
+
+/* END - THIRD SECTION */
