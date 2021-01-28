@@ -162,11 +162,10 @@ header {
     color: #ffffff;
     font-size: 15px;
     text-transform: uppercase;
-
 }
 
 .btn-padd {
-  padding: 20px 35px;
+  padding: 20px 25px;
 }
 
 /* END - NAVBAR */
@@ -213,6 +212,12 @@ header {
 
 /* START - THIRD SECTION */
 
+.img-mountain {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
 .col-50 .contained h3 {
   font-size: 35px;
   line-height: 40px;
@@ -237,17 +242,52 @@ header {
 /* START - FOOTER */
 
 footer .col-50 h3 {
-  padding: 60px;
+  padding: 60px 0;
   font-size: 35px;
   color: rgb(0, 0, 0);
   font-weight: 400;
 }
 
+.lab-title {
+  font-size: 17px;
+}
+
 .selection {
   margin: 0 auto;
   text-align: center;
-  padding: 60px;
+  padding: 70px 40px;
   color: rgb(121, 121, 121);
   }
+
+.selection select {
+  width: 130px;
+  color: rgb(121, 121, 121);
+  background-color: rgb(211, 211, 211);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: 0px 30px;
+  font-size: 17px;
+}
+
+.selection a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.fixed-btn {
+  position: fixed;
+  bottom: 0;
+  right: 20%;
+}
+
+.help-button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
 
 /* END - FOOTER */
