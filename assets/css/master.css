@@ -4,10 +4,18 @@
   box-sizing: border-box;
 }
 
-/* START - UTILITY */
+/* START - TYPO */
 
 body {
   font-family: 'Yantramanav', sans-serif;
+}
+
+/* END - TYPO */
+
+/* START - UTILITY */
+
+header {
+  background-color: rgb(23, 50, 87);
 }
 
 .container {
@@ -71,13 +79,15 @@ body {
   width: 70%;
 }
 
+.txt-center {
+  text-align: center;
+}
+
+
+
 /* END - UTILITY */
 
 /* START - NAVBAR */
-
-header > nav {
-  background-color: rgb(23, 50, 87);
-}
 
 .logo {
   display: inline-block;
@@ -127,46 +137,36 @@ header > nav {
 
   /* Immagine e testo Jumbo */
 
-#jumbo {
-  margin-top: 50px;
-  position: relative;
-}
-
-#jumbo:after{
-  content: '';
-  display: table;
-  clear: both;
-}
-
 .img-jumbo {
-  width: 70%;
-  float: right;
+  background-image: url('../img/background-header.png');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 110% 100%;
 }
 
-.text-jumbo {
-  color: #fff;
-  width: 40%;
-  position: absolute;
-  top: 70px;
-  left: 10%
+.jumbo .txt-jumbo {
+  padding-top: 160px;
+  padding-bottom: 185px;
 }
 
-.text-jumbo > h1 {
+.txt-jumbo h1 {
   font-size: 55px;
+  color: #fff ;
   font-weight: 400;
-  margin-bottom: 30px;
-  line-height: 60px;
+  line-height: 65px;
+  margin-bottom: 40px;
 }
 
-.piano {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 13px;
-  text-transform: uppercase;
-  padding: 20px 25px;
-  position: absolute;
-  top: 150px;
-  left: 0px;
+.txt-jumbo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+.btn-padd {
+  padding: 20px 35px;
 }
 
 /* END - NAVBAR */
@@ -176,7 +176,6 @@ header > nav {
 .gray {
   background-color: rgb(211, 211, 211);
   margin: 0 auto;
-  text-align: center;
 }
 
 .row .col-100 h2 {
@@ -234,3 +233,21 @@ header > nav {
 }
 
 /* END - THIRD SECTION */
+
+/* START - FOOTER */
+
+footer .col-50 h3 {
+  padding: 60px;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+.selection {
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px;
+  color: rgb(121, 121, 121);
+  }
+
+/* END - FOOTER */
